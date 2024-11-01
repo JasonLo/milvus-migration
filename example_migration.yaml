@@ -1,0 +1,27 @@
+dumper:
+  worker:
+    limit: 2
+    workMode: milvus2x
+    reader:
+      bufferSize: 128
+    writer:
+      bufferSize: 128
+
+meta:
+  mode: config
+  version: 2.4.5
+  collection: articles
+
+
+# source:
+#   milvus2x:
+#     endpoint: dev-server:19530
+#     username: user
+#     password: your-secure-password
+
+# target:
+#   milvus2x:
+#     endpoint: prod-server:19530
+#     username: user
+#     password: your-secure-password
+
